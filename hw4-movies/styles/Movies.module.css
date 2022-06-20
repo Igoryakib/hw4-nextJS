@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
+.sectionMovies {
+    width: 100vw;
+    padding: 28px 0 0 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.searchForm {
+    width: 555px;
+    margin: 0 auto 29px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FormInput {
+    width: 350px;
+    height: 15px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 2px solid rgb(168, 164, 164);
+}
+
+.submitBtn {
+    padding: 10px 40px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    font-family: "Noto Serif", serif;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid gray;
+    transition: 200ms linear;
+}
+
+.submitBtn:hover {
+    background-color: gray;
+    color: black;
+    border: 2px solid white;
+    -webkit-box-shadow: 1px 1px 13px 0px rgba(122, 128, 133, 1);
+    -moz-box-shadow: 1px 1px 13px 0px rgba(122, 128, 133, 1);
+    box-shadow: 1px 1px 13px 0px rgba(122, 128, 133, 1);
+}

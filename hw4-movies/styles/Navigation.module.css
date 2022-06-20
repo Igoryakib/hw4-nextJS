@@ -1,0 +1,28 @@
+.navigation {
+    max-width: 165px;
+    width: 100%;
+}
+
+.listItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemLink {
+    color: white;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    transition: 200ms linear;
+    cursor: pointer;
+}
+
+.itemLink_active {
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    transition: 200ms linear;
+}
