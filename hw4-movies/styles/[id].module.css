@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
+.sectionDetails {
+    width: 100vw;
+    padding: 28px 0 0 0;
+    margin: 0 auto;
+}
+
+.btnGoBack {
+    padding: 10px 40px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    font-family: "Noto Serif", serif;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid gray;
+    transition: 200ms linear;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 26px 20px;
+    cursor: pointer;
+}
+
+.btnGoBack:hover {
+    background-color: gray;
+    color: black;
+    border: 2px solid white;
+    -webkit-box-shadow: 1px 1px 13px 0px rgba(122, 128, 133, 1);
+    -moz-box-shadow: 1px 1px 13px 0px rgba(122, 128, 133, 1);
+    box-shadow: 1px 1px 13px 0px rgba(122, 128, 133, 1);
+}
+
+.imgPage {
+    border-radius: 15px;
+    width: 280px;
+    height: 448px;
+}
+
+.contentPage {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 25px auto;
+}
+
+.titlePage {
+    font-size: 33px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 16px;
+}
+
+.subTitlePage {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 13px;
+}
+
+.textPage {
+    font-size: 17px;
+    color: gray;
+    font-weight: 500;
+    font-family: 'san-serif', serif;
+    margin-bottom: 13px;
+    max-width: 530px;
+    width: 100%;
+}
+
+.subText {
+    font-size: 19px;
+    color: gray;
+    font-weight: 500;
+    font-family: 'san-serif', serif;
+    margin-bottom: 13px;
+}
+
+.wrapperText {
+    margin: 0 auto;
+}
+
+.btnLoadMore {
+    padding: 10px 40px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    font-family: "Noto Serif", serif;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid gray;
+    transition: 200ms linear;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.btnLoadMore:hover {
+    background-color: gray;
+    color: black;
+    border: 2px solid white;
+    -webkit-box-shadow: 1px 1px 13px 0px rgba(122, 128, 133, 1);
+    -moz-box-shadow: 1px 1px 13px 0px rgba(122, 128, 133, 1);
+    box-shadow: 1px 1px 13px 0px rgba(122, 128, 133, 1);
+}
+
+.wrapperBtnLoadMore {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

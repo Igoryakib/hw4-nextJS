@@ -1,0 +1,20 @@
+.title {
+    font-size: 27px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    margin: 23px 0 19px 0;
+}
+
+.text {
+    font-size: 17px;
+    color: gray;
+    font-weight: 500;
+    font-family: 'san-serif', serif;
+    padding: 0 30px 0 30px;
+}
+
+.itemLi {
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+}

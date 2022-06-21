@@ -1,0 +1,42 @@
+.moviesList {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(5, auto);
+}
+
+.card {
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+    margin: 0 auto 170px auto;
+}
+
+.cardImage {
+    width: 75px;
+    border-radius: 10px;
+}
+
+.cardTitle {
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 7px;
+}
+
+.cardSubtitle {
+    font-size: 13px;
+    color: gray;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+}
+
+.wrapperNoIMg {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
